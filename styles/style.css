@@ -22,6 +22,7 @@ p {
   font-size: 36px;
 }
 .hero {
+  margin-top: 100px;
   text-align: center;
 }
 .btn-primary {
@@ -29,4 +30,9 @@ p {
   color: var(--primary-color);
   font-size: 18px;
   padding: 18px 46px;
+}
+.btn-primary:hover {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
 }
