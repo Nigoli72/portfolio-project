@@ -1,10 +1,32 @@
-body {
-  background-color: aqua;
+:root {
+  --primary-color: #d5def5;
+  --secondary-color: #8594e4;
+  --tertiary-color: #430f58;
+  --primary-font: "Rubik", sans-serif;
+  --secondary-font: "Pacifico", cursive;
 }
+body {
+  background-color: var(--primary-color);
+}
+
 h1 {
-  font-family: "Pacifico", cursive;
-  font-size: 48px;
+  font-family: var(--secondary-font);
+  font-size: 96px;
+  color: var(--tertiary-color);
+}
+h2 {
+  font-size: 24px;
 }
 p {
-  font-family: "Rubik", sans-serif;
+  font-family: var(--primary-font);
+  font-size: 36px;
+}
+.hero {
+  text-align: center;
+}
+.btn-primary {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  padding: 18px 46px;
 }
