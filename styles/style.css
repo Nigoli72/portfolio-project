@@ -7,8 +7,15 @@
 }
 body {
   background-color: var(--primary-color);
+  margin: 50px;
 }
-
+img {
+  max-width: 75%;
+  box-shadow: 10px 5px #430f58;
+}
+p {
+  font-size: 20px;
+}
 .hero {
   margin-top: 100px;
   text-align: center;
@@ -49,6 +56,6 @@ body {
   color: var(--tertiary-color);
   border-color: var(--tertiary-color);
 }
-.project {
-  text-align: center;
+.row {
+  margin: 15px;
 }
