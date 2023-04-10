@@ -9,6 +9,11 @@ body {
   background-color: var(--primary-color);
 }
 
+.hero {
+  margin-top: 100px;
+  text-align: center;
+}
+
 .hero h1 {
   font-family: var(--secondary-font);
   font-size: 96px;
@@ -21,10 +26,7 @@ body {
   font-family: var(--primary-font);
   font-size: 36px;
 }
-.hero {
-  margin-top: 100px;
-  text-align: center;
-}
+
 .btn-primary {
   background-color: var(--tertiary-color);
   color: var(--primary-color);
@@ -35,4 +37,18 @@ body {
   background-color: var(--primary-color);
   color: var(--tertiary-color);
   border-color: var(--tertiary-color);
+}
+.btn-launch {
+  background-color: var(--tertiary-color);
+  color: var(--primary-color);
+  font-size: 18px;
+  padding: 18px 46px;
+}
+.btn-launch:hover {
+  background-color: var(--primary-color);
+  color: var(--tertiary-color);
+  border-color: var(--tertiary-color);
+}
+.project {
+  text-align: center;
 }
