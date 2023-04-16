@@ -7,7 +7,7 @@
 }
 body {
   background-color: var(--primary-color);
-  margin: 50px;
+  margin: 0px;
 }
 img {
   width: 100%;
@@ -22,9 +22,17 @@ a {
   color: var(--tertiary-color);
   text-decoration: none;
 }
+.navbar {
+  background-color: var(--primary-color) !important;
 
+  margin-left: 100px;
+}
+
+.active {
+  color: var(--secondary-color) !important;
+}
 .hero {
-  margin-top: 100px;
+  margin-top: 80px;
   text-align: center;
 }
 
@@ -67,6 +75,7 @@ a {
   margin: 15px;
 }
 .content {
+  margin-top: 50px;
   text-align: center;
 }
 .content h1 {
