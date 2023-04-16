@@ -22,6 +22,39 @@ a {
   color: var(--tertiary-color);
   text-decoration: none;
 }
+footer {
+  margin: 60px 0;
+}
+footer .email-link {
+  font-size: 24px;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--tertiary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--tertiary-color);
+
+  border-radius: 50%;
+  font-size: 24px;
+  padding: 10px 14px;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--secondary-color);
+  background-color: var(--tertiary-color);
+}
+@media (max-width: 800px) {
+  h1 {
+    line-height: 1.5;
+    font-size: 44px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+}
 .navbar {
   background-color: var(--primary-color) !important;
 
